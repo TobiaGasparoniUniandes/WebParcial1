@@ -1,0 +1,102 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+header .row {
+    padding-top: 40px;
+}
+
+header p {
+    text-align: right;
+}
+
+h1 {
+    font-family: "Satisfy", cursive;
+}
+
+#cart {
+    width: 50px;
+}
+
+#cart:hover {
+    cursor: pointer;
+}
+#banner {
+    width: 100%;
+}
+
+nav > div {
+    padding: 15px;
+}
+
+nav p {
+    margin: 0;
+}
+
+nav p:hover {
+    cursor: pointer;
+}
+
+#cat-title {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.card {
+    padding: 0;
+    height: 100%;
+}
+
+.margin-right {
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+#cancel-confirm {
+    background-color: white;
+    position: fixed;
+    margin: auto auto;
+    width: 600px;
+    border: 2px solid grey;
+}
+
+#btns {
+    width: 100%;
+}
+
+.visible-btn {
+    border: 1px solid black;
+}
+
+#btns button:first-child {
+    margin-bottom: 5px;
+}
+
+#cancel-confirm .row p {
+    padding: 3px 10px;
+    text-align: right;
+}
+
+#cancel-confirm .row p:hover {
+    cursor: pointer;
+}
+
+#cancel-background {
+    display: none;
+    z-index: 400;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
